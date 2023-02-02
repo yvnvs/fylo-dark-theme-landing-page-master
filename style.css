@@ -125,3 +125,38 @@ nav{
     opacity: 0.5;;
 }
 
+/* STAY PRODUCTIVE */
+
+#stay-productive{
+    margin-top: 72px;
+    display: flex;
+    gap:24px;
+    align-items: center;
+}
+
+#stay-productive .content{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    gap: 24px;
+}
+
+
+#stay-productive .content h2 {
+    font-weight: 700;
+    max-width: 20ch;
+    font-size: 24px;
+}
+#stay-productive p{
+    opacity: 0.5;
+}
+
+#stay-productive .content a{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--cyan);
+    text-decoration: underline;
+}
