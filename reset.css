@@ -57,6 +57,7 @@ img{
     max-width: 100%;
 }
 
+input,
 button{
     outline: none;
     border: none;
